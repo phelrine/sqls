@@ -154,6 +154,7 @@ func formatItem(node ast.Node, env *formatEnvironment) ast.Node {
 			"BETWEEN",
 			"USING",
 			"THEN",
+			"IN",
 		},
 	}
 	if whitespaceAroundMatcher.IsMatch(node) {
